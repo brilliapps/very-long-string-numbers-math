@@ -1,7 +1,7 @@
 # very-long-string-numbers-math
 Doing basic math operations on very, very, very long integer or decimal numbers suplied as a string. Of course the numbers don't have to be big. The returned values ARE NORMAL numbers AND THEY ARE NEVER KIND OF those numbers with this "e-" letter at the end of it
 
-It is like 0.9 version.
+It is like 0.91 version.
 
 I intended things to be very easy to use. So just two files that you can download and open the html file in your browser - that's it. No composer, npm - just your browser - even not the newest one 
 
@@ -26,12 +26,11 @@ I intended things to be very easy to use. So just two files that you can downloa
   
   </script>
   
-  [todo]this below similar example with minus sign is to improve - it is correct but there are some leading zeros
+  about half a minute to count 140 digits
   console.log('mt: '+idm_divide_large_textual_numbers('72542457482534938.92923719478', '9393531.639599', 140))  
-  [todo]this below similar example with minus sign is to improve - it is correct but there are some leading zeros
   console.log('mt: '+idm_divide_large_textual_numbers('72542457482534938.92923719478', '-9393531.639599', 140))  
   
-   even more interesting example - it may take f.e. about one or two minutes to do the math:
+   even more interesting example - it may take f.e. about one minute to do the math:
   console.log('mt: '+idm_divide_large_textual_numbers('972561416387155160324342457482534938929237194785736365853788274081329385902999935', '99393531639599', 110))  
    some other examples
   console.log('mt: '+idm_multiply_large_textual_numbers('0.555', '0.55'))
