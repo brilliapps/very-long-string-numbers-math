@@ -1,5 +1,5 @@
 # very-long-string-numbers-math
-Doing basic math operations on very, very, very long integer or decimal numbers suplied as a string. Of course the numbers don't have to be big. The returned values ARE NORMAL numbers NOT those with this "e-" letter at the end of each one
+Doing basic math operations on very, very, very long integer or decimal numbers suplied as a string. Of course the numbers don't have to be big. The returned values ARE NORMAL numbers AND THEY ARE NEVER KIND OF those numbers with this "e-" letter at the end of it
 
 It is like 0.9 version.
 
