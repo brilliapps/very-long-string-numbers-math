@@ -4,7 +4,6 @@
 // !!! THESE EXTRA ASCII CHARS MAY NOT BE VISIBLE IN YOUR PROGRAMMING EDITOR AND a good function may work well but look like it doesn't
 
 
-// moja funkcja nie pana Andreas Kristiansen
 function addLeadingZerosToString(numberOfZeros) {
 
     if (numberOfZeros==0) return '';
