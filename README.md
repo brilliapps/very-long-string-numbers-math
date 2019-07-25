@@ -39,9 +39,9 @@ I intended things to be very easy to use. so just two files download them and op
   console.log('mt: '+idm_divide_large_textual_numbers('126', '6300'))
   
    And finally - why i decided to do this code? As far as i know there is one important restriction when using
-   different libraries in the interent. The most important for me is the maximum digits you can use as input and the output has similar limitations.
-   Here it works pretty slow, but you don't have any digit number limits, just inform as third parameter the max digit number you expect
-   I decided to do this because i thought it would be much easier than it was
+   different libraries easily available on the interent. The most important for me is the maximum digits you can use as input and the output has similar limitations.
+   Here it works pretty slow, but you don't have any digit number limits, just supply any function as the third parameter the max digit number you expect
+   I decided to do this stuff partially because i thought it would be much easier than it was.
   
    Please, feel free to inform me of any bugs giving the type of math operation and the numbers/params used for it. 
    Thank you. 
