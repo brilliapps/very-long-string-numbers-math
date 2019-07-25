@@ -1,6 +1,7 @@
 # very-long-string-numbers-math
 Doing basc math operations on not very, or very, very, very long integer or decimal numbers suplied as a string.
 
+I intended things to be very easy to use. so just two files download them and open the html file in your browser - that's it. No composer, npm - just your browser - even not the newest one 
 
    License - free, you can modify the code as you need
   
