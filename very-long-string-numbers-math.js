@@ -130,7 +130,7 @@ function idm_add_large_textual_numbers(first, second, numbers_after_dot=2) {// d
             
                first_number_modified= idm_round_large_textual_numbers(
                             
-                              result_number_sign+first_number_modified.replace(/^[0]*((([0-9]\.){1}|[^0\.]{1})[0-9]*)$/,'$1').replace(/(.*?)\.[0]*$|(.*?\..*?)[0]*$/, '$1$2')
+                              result_number_sign+first_number_modified.replace(/^[0]*((([0-9]*\.){1}|[^0\.]{1})[0-9]*)$/,'$1').replace(/(.*?)\.[0]*$|(.*?\..*?)[0]*$/, '$1$2')
                             
                             , numbers_after_dot
                             
@@ -320,7 +320,7 @@ function idm_substract_large_textual_numbers(first, second, numbers_after_dot=2)
             
                first_number_modified= idm_round_large_textual_numbers(
                             
-                              (result_number_sign?'-':'')+first_number_modified.replace(/^[0]*((([0-9]\.){1}|[^0\.]{1})[0-9]*)$/,'$1').replace(/(.*?)\.[0]*$|(.*?\..*?)[0]*$/, '$1$2')
+                              (result_number_sign?'-':'')+first_number_modified.replace(/^[0]*((([0-9]*\.){1}|[^0\.]{1})[0-9]*)$/,'$1').replace(/(.*?)\.[0]*$|(.*?\..*?)[0]*$/, '$1$2')
                             
                             , numbers_after_dot
                             
@@ -329,7 +329,7 @@ function idm_substract_large_textual_numbers(first, second, numbers_after_dot=2)
                return first_number_modified
                
             } else {
-               return (result_number_sign?'-':'')+first_number_modified.replace(/^[0]*((([0-9]\.){1}|[^0\.]{1})[0-9]*)$/,'$1').replace(/(.*?)\.[0]*$|(.*?\..*?)[0]*$/, '$1$2')
+               return (result_number_sign?'-':'')+first_number_modified.replace(/^[0]*((([0-9]*\.){1}|[^0\.]{1})[0-9]*)$/,'$1').replace(/(.*?)\.[0]*$|(.*?\..*?)[0]*$/, '$1$2')
             }
 
             
@@ -624,7 +624,7 @@ function idm_divide_large_textual_numbers(first, second, numbers_after_dot=2, re
           
           recurrenceSettingsObject.return_result_final=              
                    result_number_sign
-                + recurrenceSettingsObject.return_result_final.replace(/^[0]*((([0-9]\.){1}|[^0\.]{1})[0-9]*)$/,'$1').replace(/(.*?)\.[0]*$|(.*?\..*?)[0]*$/, '$1$2');
+                + recurrenceSettingsObject.return_result_final.replace(/^[0]*((([0-9]*\.){1}|[^0\.]{1})[0-9]*)$/,'$1').replace(/(.*?)\.[0]*$|(.*?\..*?)[0]*$/, '$1$2');
                 
           recurrenceSettingsObject.return_result_final=idm_round_large_textual_numbers(recurrenceSettingsObject.return_result_final, numbers_after_dot);
           
@@ -709,7 +709,7 @@ function idm_multiply_large_textual_numbers(first, second, numbers_after_dot=2) 
             
                result_number= idm_round_large_textual_numbers(
                             
-                              result_number_sign+result_number.replace(/^[0]*((([0-9]\.){1}|[^0\.]{1})[0-9]*)$/,'$1').replace(/(.*?)\.[0]*$|(.*?\..*?)[0]*$/, '$1$2')
+                              result_number_sign+result_number.replace(/^[0]*((([0-9]*\.){1}|[^0\.]{1})[0-9]*)$/,'$1').replace(/(.*?)\.[0]*$|(.*?\..*?)[0]*$/, '$1$2')
                             
                             , numbers_after_dot
                             
@@ -718,7 +718,7 @@ function idm_multiply_large_textual_numbers(first, second, numbers_after_dot=2) 
                return result_number
                
             } else {
-               return result_number_sign+result_number.replace(/^[0]*((([0-9]\.){1}|[^0\.]{1})[0-9]*)$/,'$1').replace(/(.*?)\.[0]*$|(.*?\..*?)[0]*$/, '$1$2')
+               return result_number_sign+result_number.replace(/^[0]*((([0-9]*\.){1}|[^0\.]{1})[0-9]*)$/,'$1').replace(/(.*?)\.[0]*$|(.*?\..*?)[0]*$/, '$1$2')
             }
     
     return result_number
