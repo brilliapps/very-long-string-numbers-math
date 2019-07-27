@@ -1,7 +1,7 @@
 # very-long-string-numbers-math
 Doing basic math operations on very, very, very long integer or decimal numbers suplied as a string. Of course the numbers don't have to be big. The returned values ARE NORMAL numbers AND THEY ARE NEVER KIND OF those numbers with this "e-" letter at the end of it
 
-It is like 0.91 version.
+It is like 0.92 version.
 
 I intended things to be very easy to use. So just two files that you can download and open the html file in your browser - that's it. No composer, npm - just your browser - even not the newest one 
 
